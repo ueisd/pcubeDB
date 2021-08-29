@@ -1,0 +1,8 @@
+build:
+  docker:
+    web: 
+      dockerfile: database/Dockerfile.dev
+      target: heroku
+  config:
+    DATATBASE_PASSWORD : ${DATATBASE_PASSWORD}
+    
