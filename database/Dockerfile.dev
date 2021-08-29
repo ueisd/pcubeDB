@@ -1,2 +1,2 @@
-FROM mysql
+FROM mysql as heroku
 WORKDIR /app
